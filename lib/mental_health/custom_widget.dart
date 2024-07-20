@@ -11,8 +11,8 @@ class CustomWidget extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
-          'Exercise',
-          style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+          label,
+          style: TextStyle(fontSize: 18),
         ),
         Row(
           children: [
